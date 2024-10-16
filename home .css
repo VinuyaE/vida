@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: size 600px;
+  color: #000000;
+}
+header h1 {
+  margin-left: 650px;
+
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-left: 1000px;
+}
+
+nav ul li {
+
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff7f7;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #f5f4f4;
+  padding: 20px;
+}
+
+image {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+}
+
+section  {
+  padding: 100px 0;
+  background-color: #000000;
+  color: #f5f4f4;
+}
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.body {
+  padding-top: 150px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+input[type=text] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #cec4c4b4;
+}
+
+#searchResults {
+  margin-top: 20px;
+}
+
+p img {
+  width: 30px; 
+  height: auto;
+}
+
+#team {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.member {
+  background-color: #1b1919;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #ece5e5;
+}
+
+.team-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: #424343;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #424343;
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+.img1 {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
